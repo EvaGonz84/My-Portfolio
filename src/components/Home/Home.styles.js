@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-const desktopStartWidth = 996;
+const desktopStartWidth = 900;
 const mobile = `@media (max-width: ${desktopStartWidth}px)`;
 
 export const Container = styled.div`
   max-width: 100%;
-  height: 100vh;
-   display: flex;
+  margin-top: 50px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -14,18 +14,12 @@ export const Container = styled.div`
   letter-spacing: 1px;
   color: #f1f1f1;
 
-  svg{
-    font-size:2rem;
-    fill:#f1f1f1;
-    &:hover{
-      fill:#faa36c; 
+  svg {
+    font-size: 2rem;
+    fill: #f1f1f1;
+    &:hover {
+      fill: #faa36c;
     }
-  }
-
-  ${mobile} {
-
-  margin-top: -35px;
-
   }
 `;
 
@@ -33,7 +27,7 @@ export const ImageHome = styled.img`
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  ${mobile}{
+  ${mobile} {
     margin-top: 50px;
   }
 `;
@@ -51,18 +45,17 @@ export const Subtitle = styled.p`
   font-size: 1.5rem;
   line-height: 1.6;
   letter-spacing: 1px;
-  width:65%;
+  width: 65%;
   margin: 0;
- 
 
   ${mobile} {
     font-size: 1.2rem;
-    width:90%;
+    width: 90%;
   }
 `;
 
 export const Span = styled.span`
-color: #faa36c;
+  color: #faa36c;
 `;
 
 export const LinksContainer = styled.div`
@@ -89,19 +82,20 @@ export const Links = styled.a`
 `;
 
 export const ScrollToBottomContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
 
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-top: 50px;
+  p {
+    margin-bottom: -20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
 
-p{
-
-  margin-bottom: -20px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  letter-spacing:1px;
-}
-
+  ${mobile}{
+    margin-top: 15px;
+  }
 `;

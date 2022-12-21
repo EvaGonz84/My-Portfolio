@@ -118,7 +118,7 @@ const ProjectBox = () => {
       </ProjectBoxContainer>
       {showTextPortfolio && (
         <ProjectText>
-          Buitl with React.js, JavasScript, HTML, CSS, React Router, React Hook Form, Styled Components.
+          Buitl with React.js, JavasScript, HTML, CSS, React Router, React Hook Form, Styled Components, EmailJS.
         </ProjectText>
       )}
     </>

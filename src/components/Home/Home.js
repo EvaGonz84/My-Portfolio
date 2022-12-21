@@ -17,6 +17,7 @@ import { Button } from "../Button.styles";
 import { animateScroll as scroll } from "react-scroll";
 import { FaArrowCircleDown } from "react-icons/fa";
 import Project from "../Project/Project";
+import BackToTopButton from "../BackToTopButton/BackToTopButton";
 
 const Home = () => {
   const scrollToBottom = () => {
@@ -30,12 +31,12 @@ const Home = () => {
         <ImageHome src={require("../../assets/evagonzalez.jpg")} alt="me" />
         <Title>Hi, I'm Eva González</Title>
         <Subtitle>
-          Junior<Span> Frontend Developer</Span> based in Barcelona. I build websites focusing on optimizing the user's web
-          experience, with a beautiful and responsive design. 
+          Junior<Span> Frontend Developer</Span> based in Barcelona. I build
+          websites with a beautiful and responsive design.
         </Subtitle>
         <LinksContainer>
           <Links href="https://github.com/EvaGonz84" target="blank">
-            <FaGithub/>
+            <FaGithub />
           </Links>
           <Links
             href="https://www.linkedin.com/in/eva-gonz%C3%A1lez-s%C3%A1nchez-6567a6233"
@@ -61,6 +62,7 @@ const Home = () => {
       <About />
       <Project />
       <Contact />
+      <BackToTopButton/>
     </>
   );
 };

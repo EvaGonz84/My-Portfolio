@@ -5,15 +5,12 @@ import {
   CopyContainer,
 } from "./Footer.styles";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import ScrollToTop from "react-scroll-to-top";
-import { FaArrowAltCircleUp} from "react-icons/fa";
 
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
    
     <ContainerFooter>
-      <ScrollToTop smooth top="20" component={<FaArrowAltCircleUp/>} />
       <LinksContainer>
         <Links href="https://github.com/EvaGonz84" target="blank">
           <FaGithub />

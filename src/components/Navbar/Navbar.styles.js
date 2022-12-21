@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { HashLink } from "react-router-hash-link";
 
-const desktopStartWidth = 996;
+const desktopStartWidth = 900;
 const mobile = `@media (max-width: ${desktopStartWidth}px)`;
 
 export const Container = styled.nav`
@@ -11,7 +11,7 @@ export const Container = styled.nav`
   font-family: "Lato", sans-serif;
   box-shadow: 5px;
   background-color: #2a536e;
-  padding: 10px 20px;
+  padding: 0px 15px;
   position: sticky;
   z-index: 2;
   top: 0;
@@ -40,7 +40,7 @@ export const Menu = styled.ul`
     left: ${({ open }) => (open ? "0" : "-100%")};
     padding: 0;
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
@@ -56,7 +56,7 @@ export const MenuItems = styled.li`
   ${mobile} {
     width: 100%;
     height: 70px;
-    padding-top: 50px;
+    padding-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const desktopStartWidth = 996;
+const desktopStartWidth = 900;
 const mobile = `@media (max-width: ${desktopStartWidth}px)`;
 
 export const Button = styled.button`

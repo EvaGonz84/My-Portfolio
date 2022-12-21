@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const desktopStartWidth = 996;
+const desktopStartWidth = 900;
 const mobile = `@media (max-width: ${desktopStartWidth}px)`;
 
 export const Container = styled.section`
@@ -60,7 +60,7 @@ export const AboutMeContainer = styled.div`
   gap: 40px;
   line-height: 1.6;
   margin: 30px auto;
-  max-width: 85%;
+  max-width: 95%;
   letter-spacing: 1px;
 
   ${mobile} {

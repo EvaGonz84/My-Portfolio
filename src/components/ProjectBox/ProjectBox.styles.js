@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const desktopStartWidth = 996;
+const desktopStartWidth = 900;
 const mobile = `@media (max-width: ${desktopStartWidth}px)`;
 
 export const ProjectBoxContainer = styled.div`
@@ -12,12 +12,13 @@ export const ProjectBoxContainer = styled.div`
   letter-spacing: 1px;
   line-height: 1.6;
   margin: 40px auto;
-  max-width: 85%;
+  max-width: 95%;
 
   ${mobile} {
     flex-direction: column;
     max-width: 90%;
     gap: 5px;
+    
   }
 
   h3 {
@@ -46,7 +47,7 @@ export const ProjectBoxContainer = styled.div`
     color: #f1f1f1;
 
     ${mobile} {
-      width: 85%;
+      width: 95%;
       font-size: 1.2rem;
     }
   }
@@ -100,12 +101,13 @@ export const ProjectText = styled.p`
   color: #f1f1f1;
   font-size: 1.5rem;
   line-height: 1.6;
-  margin: auto;
-  max-width: 75%;
+  margin: -15px auto 0 auto;
+  max-width: 65%;
 
   ${mobile} {
     font-size: 1.2rem;
-    max-width:90%;
+    margin: -2px auto 0 auto;
+    width: 95%;
   }
 `;
 

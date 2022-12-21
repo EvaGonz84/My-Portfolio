@@ -1,11 +1,11 @@
 import styled from "styled-components";
-const desktopStartWidth = 996;
+const desktopStartWidth = 900;
 const mobile = `@media (max-width: ${desktopStartWidth}px)`;
 
 export const NotFoundContainer = styled.section`
   color: #f1f1f1;
   letter-spacing: 1px;
-  height: 72vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
