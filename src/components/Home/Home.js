@@ -1,4 +1,3 @@
-import React from "react";
 import { GlobalStyle } from "../../components/GlobalStyle.styles";
 import {
   Container,
@@ -21,7 +20,7 @@ import BackToTopButton from "../BackToTopButton/BackToTopButton";
 
 const Home = () => {
   const scrollToBottom = () => {
-    scroll.scrollMore(670);
+    scroll.scrollMore(550);
   };
 
   return (

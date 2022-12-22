@@ -28,7 +28,7 @@ export const ImageHome = styled.img`
   height: 150px;
   border-radius: 50%;
   ${mobile} {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 `;
 

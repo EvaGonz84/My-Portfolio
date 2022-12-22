@@ -20,11 +20,11 @@ export const ContainerFooter = styled.footer`
 `;
 
 export const LinksContainer = styled.div`
-  padding-top: 10px;
+  padding: 10px;
 `;
 
 export const Links = styled.a`
-  margin: 10px;
+  padding: 10px;
   color: #f26728;
 
   svg {

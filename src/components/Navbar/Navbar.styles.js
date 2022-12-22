@@ -11,7 +11,7 @@ export const Container = styled.nav`
   font-family: "Lato", sans-serif;
   box-shadow: 5px;
   background-color: #2a536e;
-  padding: 0px 15px;
+  padding: 0px 10px;
   position: sticky;
   z-index: 2;
   top: 0;

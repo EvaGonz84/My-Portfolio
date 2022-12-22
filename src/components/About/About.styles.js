@@ -79,9 +79,11 @@ export const AboutTitle = styled.h3`
 
 export const AboutSubtitle = styled.p`
   font-size: 1.5rem;
+  
 
   ${mobile} {
     font-size: 1.2rem;
+    
   }
 `;
 

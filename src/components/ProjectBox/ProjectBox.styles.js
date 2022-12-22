@@ -12,7 +12,7 @@ export const ProjectBoxContainer = styled.div`
   letter-spacing: 1px;
   line-height: 1.6;
   margin: 40px auto;
-  max-width: 95%;
+  max-width: 90%;
 
   ${mobile} {
     flex-direction: column;
@@ -47,7 +47,7 @@ export const ProjectBoxContainer = styled.div`
     color: #f1f1f1;
 
     ${mobile} {
-      width: 95%;
+      max-width: 90%;
       font-size: 1.2rem;
     }
   }
@@ -106,8 +106,8 @@ export const ProjectText = styled.p`
 
   ${mobile} {
     font-size: 1.2rem;
-    margin: -2px auto 0 auto;
-    width: 95%;
+    margin: -30px auto -10px auto;
+    max-width: 90%;
   }
 `;
 
