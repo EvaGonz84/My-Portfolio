@@ -6,8 +6,7 @@ const mobile = `@media (max-width: ${desktopStartWidth}px)`;
 
 export const Container = styled.div`
   max-width: 100%;
-  height: 90vh;
-  margin-top: 20px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,15 +22,20 @@ export const Container = styled.div`
       fill: #faa36c;
     }
   }
+
+  ${mobile}{
+    margin-top: 50px;
+    
+    
+  
+  } 
 `;
 
 export const ImageHome = styled.img`
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  ${mobile} {
-    margin-top: 40px;
-  }
+  
 `;
 
 export const Title = styled.h1`

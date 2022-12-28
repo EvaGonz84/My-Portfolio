@@ -5,6 +5,7 @@ const mobile = `@media (max-width: ${desktopStartWidth}px)`;
 
 export const Container = styled.section`
   width: 100%;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,6 +28,7 @@ export const Title = styled.h2`
   font-size: 3rem;
   width: 100%;
   letter-spacing: 1px;
+  
 
   ${mobile} {
     font-size: 2rem;

@@ -9,7 +9,7 @@ export const ContainerFooter = styled.footer`
   align-items: center;
   gap: 5px;
   background-color: #f1f1f1;
-  width: 100%;
+  max-width: 100%;
   height: 25vh;
   padding: 10px;
 
@@ -22,7 +22,7 @@ export const ContainerFooter = styled.footer`
   }
 
   ${mobile} {
-    padding: 5px;
+    padding: 10px;
   }
 `;
 
