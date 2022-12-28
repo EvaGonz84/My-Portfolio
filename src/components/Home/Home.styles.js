@@ -1,11 +1,13 @@
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 const desktopStartWidth = 900;
 const mobile = `@media (max-width: ${desktopStartWidth}px)`;
 
 export const Container = styled.div`
   max-width: 100%;
-  margin-top: 50px;
+  height: 90vh;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,6 +90,7 @@ export const ScrollToBottomContainer = styled.div`
   align-items: center;
   margin-top: 25px;
 
+
   p {
     margin-bottom: -20px;
     font-size: 1.2rem;
@@ -98,4 +101,8 @@ export const ScrollToBottomContainer = styled.div`
   ${mobile}{
     margin-top: 15px;
   }
+`;
+
+export const LinkToProjects = styled(Link)`
+margin-top: 30px;
 `;

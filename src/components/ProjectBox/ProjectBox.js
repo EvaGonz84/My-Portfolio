@@ -68,7 +68,7 @@ const ProjectBox = () => {
             <a href=" https://evagonz84.github.io/Fitness-App/" target="blank">
               <FaExternalLinkAlt />
             </a>
-            <a href="https://github.com/EvaGonz84/Fitness-App" target="blank">
+            <a href="https://github.com/EvaGonz84/Fitness-App.git" target="blank">
               <FaGithub />
             </a>
           </LinksProject>
@@ -98,10 +98,10 @@ const ProjectBox = () => {
         <TextBoxContainer>
           <h3>My Portfolio</h3>
           <LinksProject>
-            <a href=" https://evagonz84.github.io/STAR-WARS-/" target="blank">
+            <a href="https://evagonzalez.netlify.app/" target="blank">
               <FaExternalLinkAlt />
             </a>
-            <a href="https://github.com/EvaGonz84/STAR-WARS-" target="blank">
+            <a href="https://github.com/EvaGonz84/My-Portfolio.git" target="blank">
               <FaGithub />
             </a>
           </LinksProject>

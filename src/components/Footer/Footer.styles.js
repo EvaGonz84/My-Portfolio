@@ -1,4 +1,6 @@
 import styled from "styled-components";
+const desktopStartWidth = 900;
+const mobile = `@media (max-width: ${desktopStartWidth}px)`;
 
 export const ContainerFooter = styled.footer`
   display: flex;
@@ -8,7 +10,8 @@ export const ContainerFooter = styled.footer`
   gap: 5px;
   background-color: #f1f1f1;
   width: 100%;
-  height: 20vh;
+  height: 25vh;
+  padding: 10px;
 
   svg {
     fill: #f26728;
@@ -17,10 +20,14 @@ export const ContainerFooter = styled.footer`
       fill: #305d7a;
     }
   }
+
+  ${mobile} {
+    padding: 5px;
+  }
 `;
 
 export const LinksContainer = styled.div`
-  padding: 10px;
+  padding-top: 10px;
 `;
 
 export const Links = styled.a`
@@ -41,5 +48,4 @@ export const CopyContainer = styled.div`
   color: #305d7a;
   font-size: 1rem;
   letter-spacing: 1px;
-  padding-bottom: 2px;
 `;

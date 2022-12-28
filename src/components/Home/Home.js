@@ -8,21 +8,16 @@ import {
   ScrollToBottomContainer,
   ImageHome,
   Span,
+  LinkToProjects,
 } from "./Home.styles";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
-import { Button } from "../Button.styles";
-import { animateScroll as scroll } from "react-scroll";
 import { FaArrowCircleDown } from "react-icons/fa";
 import Project from "../Project/Project";
 import BackToTopButton from "../BackToTopButton/BackToTopButton";
 
 const Home = () => {
-  const scrollToBottom = () => {
-    scroll.scrollMore(550);
-  };
-
   return (
     <>
       <GlobalStyle />
@@ -45,23 +40,23 @@ const Home = () => {
           </Links>
         </LinksContainer>
         <ScrollToBottomContainer>
-          <p>View more about me</p>
-          <Button
-            onClick={scrollToBottom}
-            style={{
-              padding: "0",
-              background: "transparent",
-              borderColor: "transparent",
-            }}
+          <p>View my projects</p>
+          <LinkToProjects
+            to="projects"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-64}
+            duration={1200}
           >
             <FaArrowCircleDown />
-          </Button>
+          </LinkToProjects>
         </ScrollToBottomContainer>
       </Container>
       <About />
       <Project />
       <Contact />
-      <BackToTopButton/>
+      <BackToTopButton />
     </>
   );
 };
