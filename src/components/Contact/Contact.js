@@ -13,8 +13,8 @@ const Contact = () => {
         <ContactTitle>Contact</ContactTitle>
         <Separator />
         <ContactSubtitle>
-          Please, if you want to contact me, write me a message on this form and
-          I answer as soon as possible. Thank you!
+          Please, if you want to get in touch with me, write me a message via this form and
+          I will answer as soon as possible. Thank you!
         </ContactSubtitle>
       </ContactContainer>
       <Form />

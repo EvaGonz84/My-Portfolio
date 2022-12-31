@@ -22,11 +22,11 @@ const About = () => {
           <Title>About me</Title>
           <Separator />
           <Subtitle>
-            Hello!My name is Eva and I'm a Frontend developer just graduated
-            from a React Bootcamp. I have discovered a new passion in
+            Hello! My name is Eva and I'm a Frontend developer just graduated
+            from a React Bootcamp. I have discovered a new passion for
             programming while learning and I have gained a lot of knowledge on
             how to develop beautiful websites quickly and efficiently. I'm open
-            to job opportunities offering my acquired knowledge and willing to
+            to job opportunities offering my acquired skills and willing to
             continue learning and develop my professional career.
           </Subtitle>
           <HashLink

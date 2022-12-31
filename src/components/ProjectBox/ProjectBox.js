@@ -40,7 +40,7 @@ const ProjectBox = () => {
             </a>
           </LinksProject>
           <p>
-            Star Wars is a project created with React during Bootcamp. You can search for the ships of the saga by registering previously.
+            Star Wars is a project I created with React during the Bootcamp. You can search for the ships of the saga by signing up previously.
          
           </p>
           <p><Span>Built with...</Span></p>
@@ -73,7 +73,7 @@ const ProjectBox = () => {
             </a>
           </LinksProject>
           <p>
-            Fitness App is an own website created during the Bootcamp. It can
+            Fitness App is a website I created from scratch during the Bootcamp. You can
             search for different types of training by choosing a muscle group.
           </p>
           <p><Span>Built with...</Span></p>
