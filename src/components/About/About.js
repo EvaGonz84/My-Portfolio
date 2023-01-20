@@ -22,8 +22,7 @@ const About = () => {
           <Title>About me</Title>
           <Separator />
           <Subtitle>
-            Hello! My name is Eva and I'm a Frontend developer just graduated
-            from a React Bootcamp. I have discovered a new passion for
+            Hello!My name is Eva and I'm a Frontend developer specialized in React.I have discovered a new passion for
             programming while learning and I have gained a lot of knowledge on
             how to develop beautiful websites quickly and efficiently. I'm open
             to job opportunities offering my acquired skills and willing to
@@ -55,6 +54,7 @@ const About = () => {
               <MySkills>HTML5</MySkills>
               <MySkills>CSS3</MySkills>
               <MySkills>Bootstrap</MySkills>
+              <MySkills>Tailwindcss</MySkills>
               <MySkills>SASS</MySkills>
               <MySkills>GIT</MySkills>
               <MySkills>GITHUB</MySkills>

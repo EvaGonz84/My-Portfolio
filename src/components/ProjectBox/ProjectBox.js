@@ -3,7 +3,7 @@ import {
   FaExternalLinkAlt,
   FaGithub,
   FaArrowAltCircleDown,
-  FaRegWindowClose
+  FaRegWindowClose,
 } from "react-icons/fa";
 import {
   ProjectBoxContainer,
@@ -12,53 +12,21 @@ import {
   TextBoxContainer,
   ImgContainer,
   ProjectText,
-  IconsText
+  IconsText,
 } from "./ProjectBox.styles";
-import {Span} from '../Home/Home.styles';
+import { Span } from "../Home/Home.styles";
 const ProjectBox = () => {
-  const [showTextStarWars, setShowTextStarWars] = useState(false);
+
   const [showTextFitnessApp, setShowTextFitnessApp] = useState(false);
   const [showTextPortfolio, setShowTextPortfolio] = useState(false);
+  const [showTextEcommerce, setShowTextEcommerce] = useState(false);
 
   return (
     <>
       <ProjectBoxContainer>
         <ImgContainer>
           <ImgProject
-            src={require("../../assets/StarWarsProject.PNG")}
-            alt="starwars-project"
-          />
-        </ImgContainer>
-        <TextBoxContainer>
-          <h3>Star Wars</h3>
-          <LinksProject>
-            <a href=" https://evagonz84.github.io/STAR-WARS-/" target="blank">
-              <FaExternalLinkAlt />
-            </a>
-            <a href="https://github.com/EvaGonz84/STAR-WARS-" target="blank">
-              <FaGithub />
-            </a>
-          </LinksProject>
-          <p>
-            Star Wars is a project I created with React during the Bootcamp. You can search for the ships of the saga by signing up previously.
-         
-          </p>
-          <p><Span>Built with...</Span></p>
-          <IconsText
-            onClick={() => setShowTextStarWars(!showTextStarWars)}>
-         {showTextStarWars? <FaRegWindowClose/> : <FaArrowAltCircleDown/>}
-          </IconsText>
-        </TextBoxContainer>
-      </ProjectBoxContainer>
-      {showTextStarWars && (
-        <ProjectText>
-         Buitl with React.js, JavasScript, HTML, CSS, React Router, API, API Context, React Hook Form, Styled Components.
-        </ProjectText>
-      )}
-      <ProjectBoxContainer>
-        <ImgContainer>
-          <ImgProject
-            src={require("../../assets/FitnessProject.PNG")}
+            src={require("../../assets/FitnessProject.jpg")}
             alt="fitness-app-project"
           />
         </ImgContainer>
@@ -68,40 +36,53 @@ const ProjectBox = () => {
             <a href=" https://evagonz84.github.io/Fitness-App/" target="blank">
               <FaExternalLinkAlt />
             </a>
-            <a href="https://github.com/EvaGonz84/Fitness-App.git" target="blank">
+            <a
+              href="https://github.com/EvaGonz84/Fitness-App.git"
+              target="blank"
+            >
               <FaGithub />
             </a>
           </LinksProject>
           <p>
-            Fitness App is a website I created from scratch during the Bootcamp. You can
-            search for different types of training by choosing a muscle group.
+            Fitness App is a website I created from scratch during the Bootcamp.
+            You can search for different types of training by choosing a muscle
+            group.
           </p>
-          <p><Span>Built with...</Span></p>
-          <IconsText
-            onClick={() => setShowTextFitnessApp(!showTextFitnessApp)}>
-         {showTextFitnessApp? <FaRegWindowClose/> : <FaArrowAltCircleDown/>}
+          <p>
+            <Span>Built with...</Span>
+          </p>
+          <IconsText onClick={() => setShowTextFitnessApp(!showTextFitnessApp)}>
+            {showTextFitnessApp ? (
+              <FaRegWindowClose />
+            ) : (
+              <FaArrowAltCircleDown />
+            )}
           </IconsText>
         </TextBoxContainer>
       </ProjectBoxContainer>
       {showTextFitnessApp && (
         <ProjectText>
-          Buitl with React.js, JavasScript, HTML, CSS, React Router, API, API Context, React Hook Form, Styled Components.
+          Buitl with React.js, JavasScript, HTML, CSS, React Router, API, API
+          Context, React Hook Form, Styled Components.
         </ProjectText>
       )}
       <ProjectBoxContainer>
         <ImgContainer>
           <ImgProject
-            src={require("../../assets/MyPortfolio.PNG")}
+            src={require("../../assets/MyPortfolio.jpg")}
             alt="my-portfolio"
           />
         </ImgContainer>
         <TextBoxContainer>
           <h3>My Portfolio</h3>
           <LinksProject>
-            <a href="https://evagonzalez.netlify.app/" target="blank">
+            <a href="https://evagonzalez.net" target="blank">
               <FaExternalLinkAlt />
             </a>
-            <a href="https://github.com/EvaGonz84/My-Portfolio.git" target="blank">
+            <a
+              href="https://github.com/EvaGonz84/My-Portfolio.git"
+              target="blank"
+            >
               <FaGithub />
             </a>
           </LinksProject>
@@ -109,16 +90,65 @@ const ProjectBox = () => {
             My portfolio is a website created with React. You can find my
             resume, education and my work.
           </p>
-          <p><Span>Built with...</Span></p>
-          <IconsText
-            onClick={() => setShowTextPortfolio(!showTextPortfolio)}>
-         {showTextPortfolio? <FaRegWindowClose/> : <FaArrowAltCircleDown/>}
+          <p>
+            <Span>Built with...</Span>
+          </p>
+          <IconsText onClick={() => setShowTextPortfolio(!showTextPortfolio)}>
+            {showTextPortfolio ? (
+              <FaRegWindowClose />
+            ) : (
+              <FaArrowAltCircleDown />
+            )}
           </IconsText>
         </TextBoxContainer>
       </ProjectBoxContainer>
       {showTextPortfolio && (
         <ProjectText>
-          Buitl with React.js, JavasScript, HTML, CSS, React Router, React Hook Form, Styled Components, EmailJS.
+          Buitl with React.js, JavasScript, HTML, CSS, React Router, React Hook
+          Form, Styled Components, EmailJS.
+        </ProjectText>
+      )}
+      <ProjectBoxContainer>
+        <ImgContainer>
+          <ImgProject
+            src={require("../../assets/Ecommerce.png")}
+            alt="image-ecommerce-project"
+          />
+        </ImgContainer>
+        <TextBoxContainer>
+          <h3>E-commerce</h3>
+          <LinksProject>
+            <a href="https://e-commerce-enero-2023.netlify.app/" target="blank">
+              <FaExternalLinkAlt />
+            </a>
+            <a
+              href="https://github.com/EvaGonz84/React-ecommerce.git"
+              target="blank"
+            >
+              <FaGithub />
+            </a>
+          </LinksProject>
+          <p>
+            E-commerce is a website created with React and Tailwindcss. I am
+            currently working on this app to show the functionalities of a cart
+            with React.
+          </p>
+          <p>
+            <Span>Built with...</Span>
+          </p>
+
+          <IconsText onClick={() => setShowTextEcommerce(!showTextEcommerce)}>
+            {showTextEcommerce ? (
+              <FaRegWindowClose />
+            ) : (
+              <FaArrowAltCircleDown />
+            )}
+          </IconsText>
+        </TextBoxContainer>
+      </ProjectBoxContainer>
+      {showTextEcommerce && (
+        <ProjectText>
+          Buitl with React.js, JavasScript, HTML, Tailwindcss, React Router.
         </ProjectText>
       )}
     </>
