@@ -4,12 +4,10 @@ import { NotFoundContainer, NotFoundMessage, Span } from "./NotFound.Styles";
 import { Button } from "../Button.styles";
 import { useNavigate } from "react-router-dom";
 
-
-
 const NotFound = () => {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate('/');
+    navigate("/");
   };
 
   return (
@@ -19,9 +17,9 @@ const NotFound = () => {
         <NotFoundMessage>
           <Span>404</Span>
           <br />
-          Page not found
+          The page you are looking for doesn't exist!
         </NotFoundMessage>
-        <Button onClick={handleClick}>Go home</Button>
+        <Button onClick={handleClick}>Return home</Button>
       </NotFoundContainer>
     </>
   );

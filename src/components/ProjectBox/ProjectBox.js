@@ -16,7 +16,6 @@ import {
 } from "./ProjectBox.styles";
 import { Span } from "../Home/Home.styles";
 const ProjectBox = () => {
-
   const [showTextFitnessApp, setShowTextFitnessApp] = useState(false);
   const [showTextPortfolio, setShowTextPortfolio] = useState(false);
   const [showTextEcommerce, setShowTextEcommerce] = useState(false);
@@ -111,7 +110,7 @@ const ProjectBox = () => {
       <ProjectBoxContainer>
         <ImgContainer>
           <ImgProject
-            src={require("../../assets/Ecommerce.png")}
+            src={require("../../assets/Ecommerce.jpg")}
             alt="image-ecommerce-project"
           />
         </ImgContainer>
@@ -129,9 +128,9 @@ const ProjectBox = () => {
             </a>
           </LinksProject>
           <p>
-            E-commerce is a website created with React and Tailwindcss. I am
-            currently working on this app to show the functionalities of a cart
-            with React.
+            E-commerce is a website created with React and Tailwindcss. You can
+            browse the app to find the product information and add the desired
+            quantity to the cart.
           </p>
           <p>
             <Span>Built with...</Span>
@@ -148,7 +147,8 @@ const ProjectBox = () => {
       </ProjectBoxContainer>
       {showTextEcommerce && (
         <ProjectText>
-          Buitl with React.js, JavasScript, HTML, Tailwindcss, React Router.
+          Buitl with React.js, JavasScript, HTML, Tailwindcss, React Router,
+          ContextAPI, React Hook Form, React Icons.
         </ProjectText>
       )}
     </>

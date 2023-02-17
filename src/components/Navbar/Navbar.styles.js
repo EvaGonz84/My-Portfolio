@@ -36,6 +36,7 @@ export const Menu = styled.ul`
   ${mobile} {
     position: absolute;
     z-index: 2;
+    overflow-y: auto;
     top: 50px;
     left: ${({ open }) => (open ? "0" : "-100%")};
     padding: 0;

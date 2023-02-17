@@ -17,7 +17,6 @@ export const FormContainer = styled.form`
 `;
 
 export const InputContainerName = styled.div`
-  /* display: block; */
   width: 55%;
   margin: 20px auto;
   ${mobile} {
@@ -49,10 +48,12 @@ export const InputName = styled.input`
   margin-bottom: 0.5em;
   background-color: #f1f1f1;
   color: #f26728;
+  outline: none;
   font-weight: bold;
-  border: none;
+  border: ${({ isRight }) => (isRight ? "2px solid red" : "none")};
   &:focus {
     background-color: white;
+    border: ${({ isRight }) => (isRight ? "2px solid red" : "none")};
   }
 
   ${mobile} {
@@ -69,12 +70,14 @@ export const InputText = styled.textarea`
   margin-bottom: 0.5em;
   background-color: #f1f1f1;
   color: #f26728;
+  outline: none;
   font-weight: bold;
-  border: none;
+  border: ${({ isRight }) => (isRight ? "2px solid red" : "none")};
   box-sizing: inherit;
 
   &:focus {
     background-color: white;
+    border: ${({ isRight }) => (isRight ? "2px solid red" : "none")};
   }
 
   ${mobile} {
@@ -91,9 +94,11 @@ export const InputEmail = styled.input`
   font-size: 1rem;
   color: #f26728;
   font-weight: bold;
-  border: none;
+  outline: none;
+  border: ${({ isRight }) => (isRight ? "2px solid red" : "none")};
   &:focus {
     background-color: white;
+    border: ${({ isRight }) => (isRight ? "2px solid red" : "none")};
   }
   ${mobile} {
     width: 95%;

@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />

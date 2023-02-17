@@ -27,7 +27,7 @@ const Navbar = () => {
             to="/#home"
             scroll={(el) => {
               el.scrollIntoView(true);
-              window.scrollBy(0, -100);
+              window.scrollBy(0, -200);
             }}
             onClick={() => setShowMobileMenu(!showMobileMenu)}
           >

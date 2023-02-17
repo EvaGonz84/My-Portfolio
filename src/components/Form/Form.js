@@ -50,7 +50,7 @@ const Form = () => {
     <FormContainer ref={form} onSubmit={handleSubmit(onSubmit)}>
       <InputContainerName>
         <Label>Enter your name</Label>
-        <InputName
+        <InputName isRight={errors.user_name}
           type="text"
           name="user_name"
           autoComplete="off"
@@ -70,7 +70,7 @@ const Form = () => {
       </InputContainerName>
       <InputContainerEmail>
         <Label>Enter your Email</Label>
-        <InputEmail
+        <InputEmail isRight={errors.user_email}
           type="email"
           name="user_email"
           autoComplete="off"
@@ -91,7 +91,7 @@ const Form = () => {
 
       <TextContainer>
         <Label>Message</Label>
-        <InputText
+        <InputText isRight={errors.message}
           type="text"
           name="message"
           placeholder="Writte something..."
