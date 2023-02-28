@@ -18,19 +18,16 @@ export const ProjectBoxContainer = styled.div`
     flex-direction: column;
     max-width: 90%;
     gap: 5px;
-    
   }
 
   h3 {
-    font-size: 1.5rem;
-    background-color: #f26728;
+    font-size: 1.6rem;
     color: #f1f1f1;
-    width: 35%;
+    width: 50%;
     margin: 0 auto;
-    border-radius: 10px;
     ${mobile} {
       font-size: 1.3rem;
-      width: 40%;
+      width: 80%;
     }
   }
   svg {
