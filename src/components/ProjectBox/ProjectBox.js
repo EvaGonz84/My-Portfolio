@@ -161,7 +161,7 @@ const ProjectBox = () => {
       )}
       <ProjectBoxContainer>
         <ImgContainer>
-          <a href=" https://evagonz84.github.io/Fitness-App/" target="blank">
+          <a href="https://quicktask.netlify.app/" target="blank">
             <ImgProject
               src={require("../../assets/QuickTask.JPG")}
               alt="quick-task-project"
