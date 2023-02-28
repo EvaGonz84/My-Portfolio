@@ -123,7 +123,7 @@ const ProjectBox = () => {
           </a>
         </ImgContainer>
         <TextBoxContainer>
-          <h3>E-commerce</h3>
+          <h3>DBread</h3>
           <LinksProject>
             <a href="https://e-commerce-enero-2023.netlify.app/" target="blank">
               <FaExternalLinkAlt />
@@ -136,7 +136,7 @@ const ProjectBox = () => {
             </a>
           </LinksProject>
           <p>
-            E-commerce is a website created with React and Tailwindcss. You can
+            DBread is a website created with React and Tailwindcss. You can
             browse the app to find the product information and add the desired
             quantity to the cart.
           </p>
