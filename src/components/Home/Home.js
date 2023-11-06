@@ -7,7 +7,6 @@ import {
   Links,
   ScrollToBottomContainer,
   ImageHome,
-  Span,
   LinkToProjects,
 } from "./Home.styles";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -25,7 +24,7 @@ const Home = () => {
         <ImageHome src={require("../../assets/evagonzalez.jpg")} alt="me" />
         <Title>Hi, I'm Eva González</Title>
         <Subtitle>
-          Junior<Span> Frontend Developer</Span> based in Barcelona. I build
+          Junior Frontend Developer based in Barcelona. I build
           websites with a beautiful and responsive design.
         </Subtitle>
         <LinksContainer>

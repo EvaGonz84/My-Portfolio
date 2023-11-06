@@ -46,7 +46,7 @@ export const InputName = styled.input`
   font-size: 1rem;
   width: 100%;
   margin-bottom: 0.5em;
-  background-color: #f1f1f1;
+  background-color: #FFFF;
   color: #f26728;
   outline: none;
   font-weight: bold;
@@ -68,7 +68,7 @@ export const InputText = styled.textarea`
   width: 100%;
   height: 100px;
   margin-bottom: 0.5em;
-  background-color: #f1f1f1;
+  background-color: #FFFF;
   color: #f26728;
   outline: none;
   font-weight: bold;
@@ -90,7 +90,7 @@ export const InputEmail = styled.input`
   border-radius: 2px;
   width: 100%;
   margin-bottom: 0.5em;
-  background-color: #f1f1f1;
+  background-color: #FFFF;
   font-size: 1rem;
   color: #f26728;
   font-weight: bold;

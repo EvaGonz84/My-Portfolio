@@ -8,18 +8,18 @@ export const Button = styled.button`
   padding: 10px 15px;
   border-radius: 5px;
   font-size: 18px;
-  font-weight:bold;
-  letter-spacing:1px;
+  font-weight: bold;
+  letter-spacing: 1px;
   text-decoration: none;
-  background-color: #f26728;
-  font-family: 'Lato', sans-serif;
-  color: #f1f1f1;
-  border-color: #f1f1f1;
+  font-family: "Lato", sans-serif;
+  color: #305d7a;
+  border-color: #ffffff;
+  background-color: #ffffff;
 
   &:hover {
-    background-color: #f1f1f1;
-    color:#305D7A ;
-    border-color: #f1f1f1;
+    background-color: #305d7a;
+    color: #ffffff;
+    border-color: #ffffff;
     transition: 0.5s all ease-in;
   }
 

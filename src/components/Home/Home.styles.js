@@ -23,19 +23,15 @@ export const Container = styled.div`
     }
   }
 
-  ${mobile}{
+  ${mobile} {
     margin-top: 50px;
-    
-    
-  
-  } 
+  }
 `;
 
 export const ImageHome = styled.img`
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  
 `;
 
 export const Title = styled.h1`
@@ -61,7 +57,7 @@ export const Subtitle = styled.p`
 `;
 
 export const Span = styled.span`
-  color: #faa36c;
+  color: #f26728;
 `;
 
 export const LinksContainer = styled.div`
@@ -94,7 +90,6 @@ export const ScrollToBottomContainer = styled.div`
   align-items: center;
   margin-top: 25px;
 
-
   p {
     margin-bottom: -20px;
     font-size: 1.2rem;
@@ -102,11 +97,11 @@ export const ScrollToBottomContainer = styled.div`
     letter-spacing: 1px;
   }
 
-  ${mobile}{
+  ${mobile} {
     margin-top: 15px;
   }
 `;
 
 export const LinkToProjects = styled(Link)`
-margin-top: 30px;
+  margin-top: 30px;
 `;

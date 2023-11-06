@@ -11,7 +11,7 @@ export const ProjectBoxContainer = styled.div`
   gap: 40px;
   letter-spacing: 1px;
   line-height: 1.6;
-  margin: 40px auto;
+  margin: 60px auto 15px auto;
   max-width: 90%;
 
   ${mobile} {
@@ -98,14 +98,12 @@ export const ProjectText = styled.p`
   color: #f1f1f1;
   font-size: 1.5rem;
   line-height: 1.6;
-  margin: -15px auto 0 auto;
+  margin: auto;
   max-width: 65%;
 
   ${mobile} {
     font-size: 1.2rem;
-    margin: -30px auto -10px auto;
+    margin: 10px auto 0px auto;
     max-width: 90%;
   }
 `;
-
-export const IconsText = styled.div``;
